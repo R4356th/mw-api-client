@@ -111,7 +111,7 @@ class Page(object):
             'titles': self.title,
             'prop': 'info',
             'inprop': 'protection|talkid|watched|watchers|visitingwatchers|'
-                      + 'notificationtimestamp|subjectid|url|readable|preload|'
+                      + 'notificationtimestamp|subjectid|url|readable|preloadcontent|'
                       + 'displaytitle'
         }
         data = self.wiki.request(**arguments)
